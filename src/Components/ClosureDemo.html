@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var Country = "India";
+      function OuterFunc() {
+        var fname = "Md";
+        var city = "Nanded";
+        function InnerFunc() {
+          var lname = "Umair";
+          console.log(fname + " " + lname);
+          console.log(city);
+          console.log(Country);
+        }
+        InnerFunc();
+      } 
+      OuterFunc();
+    </script>
+  </head>
+  <body></body>
+</html>
